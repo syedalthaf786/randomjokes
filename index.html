@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+  
+        .btn{
+            color:white;
+          background-color: rgb(0, 0, 0);
+        }
+        .btn:hover{
+            background-color: rgb(113, 113, 113);
+            color:rgb(155, 13, 13);
+        }
+        .card-img{
+            object-fit: cover;
+            border-radius: 0;;
+        }
+        .card-1{
+          border-radius:0;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">JokeHUb😊</a>
+        </div>
+      </nav>
+      <div class="card card-1 text-bg-dark ">
+        <img src="image.jpg" class="card-img" alt="..." width="1200" height="250">
+      </div>
+    <div class="container my-5">
+    <div class="card w-80">
+        <div class="card-header">
+           Joke😊
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p id="joke"></p>
+            
+            <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+          </blockquote>
+        </div>
+      </div>
+      <button type="button" class="btn my-4 mx-5">Get joke</button>
+      </div>
+    
+      
+      <footer class="sm:my-5 md:my-5 lg:my-50">&copy; 2024 JokeHUb😊. All rights reserved.</footer>
+    
+      <script src="random.js" ></script>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
